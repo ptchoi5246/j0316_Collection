@@ -78,7 +78,7 @@ public class T3_array {
 		System.out.println("5.vos 객체 안의 배열값 출력"); //4.2차원 배열 출력과 같다
 		for(int i=0; i<vos.size(); i++) {
 			for(int j=0; j<vos.get(i).length; j++) {
-				System.out.print(vos.get(i)[j] + " ");
+				System.out.print(vos.get(i)[j] + " "); //굉장히 중요하다
 			}
 			System.out.println();
 			
